@@ -1,0 +1,42 @@
+body {
+  margin: 1em;
+  padding: 1em;
+  font-family: "Roboto";
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+video {
+  border: 1px solid #eee;
+  margin-bottom: 1em;
+}
+
+video.ready {
+  background-color: cornsilk;
+}
+
+button {
+  padding: 0.5em 1em;
+  background-color: #6060ff;
+  color: #fafafa;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+button.ready::after {
+  content: "ready";
+}
+
+button.onAir {
+  background-color: coral;
+}
+
+button.onAir::after {
+  content: "stop";
+}
